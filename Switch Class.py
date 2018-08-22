@@ -116,7 +116,7 @@ def main():
     ns.add(2, print, ('two'))
     ns[2]()
     
-    #or makes no case if i is new
+    #or makes new case if i is new
     ns[7]()
     ns.add(7, print, ('seven'))
     ns[7]()
